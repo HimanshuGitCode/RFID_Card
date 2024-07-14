@@ -1,0 +1,322 @@
+ 
+.price-table7 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0 none;
+}
+.price-table7 tr:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.price-table7 tr td {
+    border-left: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 10px 24px;
+    font-size: 14px;
+}
+.price-table7 tr td:first-child {
+    border-left: 0 none;
+}
+.price-table7 tr td:not(:first-child) {
+    text-align: center;
+}
+ .price-table7 tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+.price-table7 tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+.price-table7 tr:hover {
+    background-color: #F4F6FF;
+}
+.price-table7 .fa-check {
+    color: #5336ca;
+}
+.price-table7 .fa-times {
+  /*  color: #D8D6E3;*/
+	color: #FF4B4B;
+}
+
+/* Highlighted column */
+.price-table7 tr:nth-child(2n) td:nth-child(3) {
+    /*background-color: rgba(216, 214, 227, 0.25);*/
+}
+.price-table7 tr td:nth-child(3) {
+    /*background-color: rgba(216, 214, 227, 0.15);*/
+    padding: 8px 48px;
+}
+.price-table7 tr td:nth-child(3) .fa-check,
+.price-table7 tr:nth-child(2n) td:nth-child(3) .fa-check {
+    /* color: #ffffff; */
+}
+/**/
+
+.price-table7 tr.price-table7-head td {
+    font-size: 16px;
+    font-weight: 600;
+   /* font-family: "Montserrat";*/
+	font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+.price-table7 tr.price-table7-head {
+    background-color: #ec3237;
+    color: #FFFFFF;
+}
+.price-table7 td.price {
+    /*color: #f43f54;*/
+	 color: #535353;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    /*font-family: "Montserrat";*/
+	font-family: "Poppins", sans-serif;
+}
+.price-table7 td.price a {
+    background-color: #5336ca;
+    color: #FFFFFF;
+    padding: 12px 32px;
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 600;
+   /* font-family: "Montserrat";*/
+	font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 64px;
+}
+.price-table7 td.price-table7-popular {
+   /* font-family: "Montserrat";*/
+	font-family: "Poppins", sans-serif;
+    border-top: 3px solid #ec3237;
+    color: #ec3237;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 12px 48px;
+    font-weight: 700;
+}
+.price-table7 .price-blank {
+    background-color: #fafafa;
+    border: 0 none;
+}
+
+.price-table7 svg {
+    width: 90px;
+    fill: #5336ca;
+}
+
+
+
+
+.module_ul
+{
+padding-left: 15px;
+
+}
+.module_ul li
+{
+/*color: #0090a8;*/
+color: #5b5b5b;
+font-size: 12px;
+
+}
+
+
+@media only screen and (max-width:42.09em) {
+  
+  
+  
+  .dcf-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0 none;
+}
+.dcf-table tr:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+.dcf-table tr td {
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 8px 8px;
+   /* font-size: 14px;*/
+	font-size: 11px;
+}
+.dcf-table tr td:first-child {
+    border-left: 0 none;
+}
+.dcf-table tr td:not(:first-child) {
+    text-align: center;
+}
+.dcf-table tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+.dcf-table tr:hover {
+    background-color: #EEEEEE;
+}
+.dcf-table .fa-check {
+    color: #5336ca;
+}
+.dcf-table .fa-times {
+  /*  color: #D8D6E3;*/
+	color: #FF4B4B;
+}
+
+
+/* Highlighted column */
+.dcf-table tr:nth-child(2n) td:nth-child(3) td:nth-child(4) {
+    background-color: rgba(36, 0, 236, 0);
+	 
+}
+.dcf-table tr td:nth-child(3) {
+    background-color: rgba(216, 214, 227, 0);
+    padding: 8px 0px;
+}
+.dcf-table tr td:nth-child(3) .fa-check,
+.dcf-table tr:nth-child(2n) td:nth-child(3) .fa-check {
+    /* color: #ffffff; */
+}
+/**/
+
+.dcf-table tr.dcf-table-head td {
+    font-size: 16px;
+    font-weight: 600;
+   /* font-family: "Montserrat";*/
+	font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+.dcf-table tr.dcf-table-head {
+    background-color: #5336ca;
+    color: #FFFFFF;
+}
+
+.dcf-table td.price a {
+  background-color: #5336ca;
+color: #FFFFFF;
+padding: 0px 8px;
+margin-top: 5px;
+font-size: 8px;
+/*font-family: "Montserrat";*/
+font-family: "Poppins", sans-serif;
+text-transform: uppercase;
+display: inline-block;
+border-radius: 8px;
+}
+
+.dcf-table td.price {
+    /*color: #f43f54;*/
+	 color: #002273;
+padding: 16px 10px;
+font-size: 9px;
+font-weight: 600;
+font-family: "Poppins", sans-serif;
+}
+ 
+.dcf-table td.dcf-table-popular {
+   /* font-family: "Montserrat";*/
+	font-family: "Poppins", sans-serif;
+    border-top: 3px solid #5336ca;
+    color: #5336ca;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 12px 48px;
+    font-weight: 700;
+}
+.dcf-table .price-blank {
+    background-color: #fafafa;
+    border: 0 none;
+}
+
+.dcf-table svg {
+    width: 90px;
+    fill: #5336ca;
+}
+
+
+
+
+.module_ul
+{
+padding-left: 15px;
+
+}
+.module_ul li
+{
+color: #0090a8;
+font-size: 12px;
+
+}
+  
+  
+  
+  
+  
+  }
+
+
+  
+
+
+  @media only screen and (min-width: 767px)
+
+{
+.desktopnone 
+{
+  display: none;
+}
+}
+
+
+  @media only screen and (max-width: 767px)
+
+{
+.mobilenone
+ {
+  display: none;
+}
+}
+
+
+<!-- All Univerity of Nebraska-Lincoln Web Framework code is the property of UComm/ITS Digital Experience Group 
+and the UNL Web Developer Network. -->
+
+<!-- place the contents of this css file, in the <head></head> of your html page when using 
+the responsive table generator code on sites not in UNLcms or the UNL.edu framework -->
+
+ 
+
+
+:root {
+    --bg-table-stripe: #f6f6f5;
+    --b-table: #fff;
+    --caption: #242423;
+}
+
+ 
+
+.dcf-table tr:hover {
+    background-color: #EEEEEE;
+}
+.dcf-table .fa-check {
+    color: #5336ca;
+}
+.dcf-table .fa-times {
+  /*  color: #D8D6E3;*/
+	color: #FF4B4B;
+}
+
+
+
+    @media only screen and (max-width:42.09em) {
+      
+       
+    }
+
+.dcf-overflow-x-auto {
+      overflow-x: auto!important;
+      -webkit-overflow-scrolling: touch
+    }
+    
+.dcf-w-100\% {
+  width: 100%!important;
+		}
+    
+ 
+
